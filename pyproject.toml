@@ -8,9 +8,16 @@ line_length = 120
 
 [tool.poetry]
 name = "pytest-parametrization"
-version = "2021.4.1"
+version = "2022.1.1"
 description = "Simpler PyTest parametrization"
 authors = ["Singular Labs, Inc <devs@singular.net>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/singular-labs/parametrization"
+keywords = ["pytest", "parametrize", "parametrization", "singular"]
+packages = [
+    { include = "parametrization.py" }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10"
